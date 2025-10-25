@@ -1,0 +1,47 @@
+.infoBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 12rem;
+}
+
+.info-box {
+  margin-top: 5rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #333333;
+  opacity: 0.9;
+  width: 15rem;
+  height: 6rem;
+  text-align: center;
+  z-index: 1;
+  float: left;
+  background: rgba(20, 20, 20, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+}
+
+.info-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
