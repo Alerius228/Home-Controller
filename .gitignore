@@ -1,5 +1,4 @@
 /.vscode
 /web/backend_rust/target
-/web/frontend/node_modules/.bin
-/web/frontend/node_modules
 web/backend_rust/Cargo.lock
+/web/frontend/node_modules
