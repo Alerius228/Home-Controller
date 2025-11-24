@@ -1,0 +1,44 @@
+header {
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 1;
+  text-shadow: 3px 3px 4px #222222;
+}
+
+header nav {
+  justify-self: center;
+  align-self: center;
+  background: rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  border: 1px solid rgba(0, 255, 255, 0.15);
+}
+
+header h1 {
+  margin-left: 12rem;
+  color: #e6e6e6;
+  font-weight: bold;
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+li a {
+  font-weight: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+li {
+  padding-top: 12px;
+  vertical-align: middle;
+  text-align: center;
+  list-style-type: none;
+  margin-right: 2rem;
+}
