@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     async function updateSensorData() {
-      const response = await fetch(URL, {
+      const response = await fetch("http://10.50.78.220:8000/getInfo", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

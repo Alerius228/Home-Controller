@@ -2,3 +2,5 @@
 /web/backend_rust/target
 web/backend_rust/Cargo.lock
 /web/frontend/node_modules
+home_remote_controller_mini_ESP32/home_remote_controller_mini_ESP32.ino
+/home_remote_controller_mini_ESP32
