@@ -1,0 +1,27 @@
+.app {
+  font-family: "Arial", sans-serif;
+  color: #e6e6e6;
+  background-color: #222222;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.app a {
+  color: #e6e6e6;
+}
+
+.appBackground {
+  background-color: #222222;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0.4;
+  z-index: -1;
+}
