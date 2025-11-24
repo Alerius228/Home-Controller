@@ -1,0 +1,3 @@
+/.vscode
+web/backend_rust/Cargo.lock
+/web/backend_rust/target
